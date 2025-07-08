@@ -43,7 +43,7 @@ let frontend
     ~concurrency:false
     (* error verbosity *) Basic
     ~defacto:false
-    ~permissive:false
+    ~permissive:true
     ~agnostic:false
     ~ignore_bitfields:false;
   CF.Ocaml_implementation.set CF.Ocaml_implementation.HafniumImpl.impl;
